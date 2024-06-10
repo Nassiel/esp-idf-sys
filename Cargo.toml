@@ -42,6 +42,11 @@ strum = { version = "0.24", features = ["derive"] }
 envy = "0.4.2"
 which = "4.4"
 
+[[package.metadata.esp-idf-sys.extra_components]]
+remote_component = [
+  { name = "espressif/esp-zboss-lib", version = "1.0.9" },
+  { name = "espressif/esp-zigbee-lib", version = "1.0.9" }
+]
 
 [patch.crates-io]
 embuild ={ git = "https://github.com/esp-rs/embuild"}
