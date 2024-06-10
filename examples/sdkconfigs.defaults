@@ -1,0 +1,20 @@
+# The examples require a larger than the default stack size for the main thread and the posix threads.
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=20000
+CONFIG_PTHREAD_TASK_STACK_SIZE_DEFAULT=8192
+
+# Go figure...
+CONFIG_FREERTOS_IDLE_TASK_STACKSIZE=4096
+
+#
+# Zboss
+#
+CONFIG_ZB_ENABLED=y
+CONFIG_ZB_ZED=y
+# end of Zboss
+
+#
+# IEEE802154
+#
+CONFIG_IEEE802154_RECEIVE_DONE_HANDLER=y
+# end of IEEE802154
+# end of Component config

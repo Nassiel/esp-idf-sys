@@ -44,8 +44,8 @@ which = "4.4"
 
 [[package.metadata.esp-idf-sys.extra_components]]
 remote_component = [
-  { name = "espressif/esp-zboss-lib", version = "1.0.9" },
-  { name = "espressif/esp-zigbee-lib", version = "1.0.9" }
+  { name = "espressif/esp-zboss-lib", version = "1.3.0" },
+  { name = "espressif/esp-zigbee-lib", version = "1.3.0" }
 ]
 
 [patch.crates-io]
