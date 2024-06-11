@@ -508,8 +508,4 @@
 #endif // (ESP_IDF_VERSION_MAJOR >= 5 && ESP_IDF_VERSION_MINOR >= 3
 #endif // ESP_IDF_COMP_LCD_ENABLED
 
-// #ifdef CONFIG_ZB_ENABLED
-#include "esp_zigbee_core.h"
-// #endif
-
 // n
